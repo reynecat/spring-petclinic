@@ -5,6 +5,12 @@
 <body>
 
   <h2 th:text="#{welcome}">Welcome</h2>
+  <div class="alert alert-success" role="alert">
+    <h4>🎯 Multi-Cloud DR Project - v3.0 Production Ready</h4>
+    <p>This application demonstrates enterprise-grade cloud architecture with automated CI/CD!</p>
+    <p><strong>AWS Primary:</strong> EKS + RDS + ALB | <strong>Azure DR:</strong> AKS + MySQL Flexible Server</p>
+    <p><strong>DevOps Stack:</strong> GitHub Actions | ArgoCD GitOps | Docker Hub | Terraform IaC</p>
+  </div>
   <div class="row">
     <div class="col-md-12">
       <img class="img-responsive" src="../static/resources/images/pets.png" th:src="@{/resources/images/pets.png}" />
